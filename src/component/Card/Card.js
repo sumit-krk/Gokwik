@@ -4,14 +4,16 @@ const Card=()=>{
     return <>
         <div className={styles.main_div_of_card}>
             {/* small horizontal line part of card */}
-            <div></div>
+            <div className={styles.small_horizontal_div}>
+
+            </div>
 
             {/* middle par of card */}
             <div className={styles.middle_div_of_card}>
 
                 {/* company icon */}
                 <div>
-                    <img src={Com_logo_1} alt="BigCo Inc. logo"/>
+                    <img src={Com_logo_1} alt="BigCo Inc. logo" className={styles.avatar}/>
                 </div>
 
                 {/* company tech part */}

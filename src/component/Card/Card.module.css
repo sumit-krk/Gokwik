@@ -2,12 +2,16 @@
     width: 70%;
     /* border: 1px solid red; */
     background-color: white;
-    margin: auto;
+    /* margin: auto; */
     display: flex;
     align-items: center;
     /* align-content: center; */
     justify-content: space-between;
     margin: 40px auto;
+    /* padding: 0px 40px; */
+    /* margin: 0px 100px; */
+    /* border: 1px solid black; */
+    flex-wrap: wrap;
 }
 .dot_in_card{
     height: 3px;
@@ -22,18 +26,48 @@
     /* border: 1px solid black; */
     align-items: center;
     justify-content: space-between;
+    color: gray;
+    flex-wrap: wrap;
 }
 .middle_div_of_card{
    display: flex; 
    align-items: center;
-   width: 60%;
+   /* width: 60%; */
    /* border: 1px solid green; */
+   /* border: 1px solid red; */
+   flex-grow: 3;
+   flex-wrap: wrap;
 }
 .tech_div_of_card{
     display: flex;
     /* border: 1px solid orange; */
-    width: 35%;
-    justify-content: space-around;
+    /* width: 35%; */
+    /* justify-content: space-around; */
+    /* border: 1px solid green; */
+    flex-grow: 1;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.small_horizontal_div{
+    height: 100px;
+    width: 10px;
+    background-color: teal;
+    margin-right: 10px;
+    border-radius: 2px;
+}
+.tech_div_of_card>div{
+    color: #66a5a5;
+    background-color: #EBF3F5;
+    padding: 6px;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.tech_div_of_card>div:hover{
+    background-color: #66a5a5;
+    color: white;
+    cursor: pointer;
 }
 .details_of_job_middle_div{
     margin-left: 20px;
@@ -43,4 +77,19 @@
     flex-direction: column;
     align-content: space-between;
    justify-content: space-around;
+   flex-wrap: wrap;
 }
+.details_of_job_middle_div> div:first-child{
+    color: #66a5a5;
+    font-weight: bold;
+}
+.details_of_job_middle_div> div:nth-child(2){
+    color: #28312E;
+    font-weight: bold;
+}
+.avatar {
+    vertical-align: middle;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
