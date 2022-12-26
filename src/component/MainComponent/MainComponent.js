@@ -1,10 +1,10 @@
-import MainCard from "../MainCard/MainCard";
+import JobRoleCard from "../JobRloeCard/JobRoleCard";
 import MainHeader from "../MainHeader/MainHeader";
 
 const MainComponent=()=>{
     return <>
         <MainHeader />
-        <MainCard />
+        <JobRoleCard />
     </>
 }
 export default MainComponent;
