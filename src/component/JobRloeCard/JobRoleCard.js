@@ -4,7 +4,10 @@ import Data from "../../db.json";
 const JobRoleCard=()=>{
     return <>
         <div className={styles.main_body}>
-            {Data.map(()=> <Card />)}
+            <div>
+                {/* <input /> */}
+            </div>
+            {Data.map((Data)=> <Card Title={Data.Title} TechStacks={Data.TechStacks}  />)}
         </div>
     </>
 }

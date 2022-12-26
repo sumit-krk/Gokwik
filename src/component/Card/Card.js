@@ -1,6 +1,8 @@
 import Com_logo_1 from '../../Gokiwik/Com_logo_1.jpg';
+import CardButton from '../CardButton/CardButton';
 import styles from './Card.module.css'
-const Card=()=>{
+const Card=(props)=>{
+    console.log(props)
     return <>
         <div className={styles.main_div_of_card}>
             {/* small horizontal line part of card */}
@@ -18,7 +20,7 @@ const Card=()=>{
 
                 {/* company tech part */}
                 <div className={styles.details_of_job_middle_div}>
-                    <div>Photoshop</div>
+                    <div>{props.Title}</div>
                     <div>Full stack Developer</div>
                     <div className={styles.details_of_job}>
                         <span>1d ago</span>
@@ -32,11 +34,8 @@ const Card=()=>{
             </div>
 
             {/* last part of card(listed tech list) */}
-            <div className={styles.tech_div_of_card}>
-                <div>button_1</div>
-                <div>button_1</div>
-                <div>button_1</div>
-                <div>button_1</div>
+            <div style={{border:'1px solid blue',display:'flex',width:'400px',justifyContent:'flex-end',flexWrap:'wrap'}}>
+                {props.TechStacks.map((e) => <CardButton TechStacks={e} />)}
             </div>
         </div>
     </>

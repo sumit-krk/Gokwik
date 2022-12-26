@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "CompanyTitle": "Amazon",
+      "Title": "Photosnap",
       "CompanyType": [
         { "Type1": "NEW!" },
         { "Type2": "FEATURED" }
@@ -12,7 +12,7 @@
     },
     {
       "id": 2,
-      "CompanyTitle": "Samsung",
+      "Title": "Manage",
       "CompanyType": [
         { "Type1": "NEW!" },
         { "Type2": "FEATURED" }
@@ -23,7 +23,7 @@
     },
     {
       "id": 3,
-      "CompanyTitle": "Apple",
+      "Title": "Account",
       "CompanyType": [
         { "Type1": "" },
         { "Type2": "FEATURED" }
@@ -34,7 +34,7 @@
     },
     {
       "id": 4,
-      "CompanyTitle": "Mircosoft",
+      "Title": "MyHome",
       "CompanyType": [
         { "Type1": "NEW!" },
         { "Type2": "FEATURED" }
@@ -45,23 +45,67 @@
     },
     {
       "id": 5,
-      "CompanyTitle": "IBM",
+      "Title": "Loop Studios",
       "CompanyType": [
         { "Type1": "NEW!" }
       ],
       "JobRole" : "Senior Software Engineer",
       "JobDetails" : ["4d ago", "Full Time", "UK only"],
-      "TechStacks" : [ "NodeJs", "ExpressJs", "MongoDB", "SQL", "ReactJs"]
+      "TechStacks" : [ "NodeJs","MongoDB", "SQL", "ReactJs"]
     },
     {
       "id": 6,
-      "CompanyTitle": "Oracle",
+      "Title": "Facelt",
       "CompanyType": [
         { "Type1": "NEW!" },
         { "Type2": "FEATURED" }
       ],
       "JobRole" : "Lead Engineer",
       "JobDetails" : ["1d ago", "Full Time", "Remote"],
-      "TechStacks" : [ "Frontend", "CSS", "HTML", "JavaScript", "React" , "NodeJs"]
-    }
+      "TechStacks" : [ "Frontend", "CSS", "HTML", "JavaScript", "NodeJs"]
+    },
+    {
+        "id": 7,
+        "Title": "Shortly",
+        "CompanyType": [
+          { "Type1": "NEW!" },
+          { "Type2": "FEATURED" }
+        ],
+        "JobRole" : "Lead Engineer",
+        "JobDetails" : ["1d ago", "Full Time", "Remote"],
+        "TechStacks" : [ "Frontend", "CSS", "HTML", "React" , "NodeJs"]
+      },
+      {
+        "id": 8,
+        "Title": "Insure",
+        "CompanyType": [
+          { "Type1": "NEW!" },
+          { "Type2": "FEATURED" }
+        ],
+        "JobRole" : "Lead Engineer",
+        "JobDetails" : ["1d ago", "Full Time", "Remote"],
+        "TechStacks" : [ "Frontend", "CSS", "HTML","React" , "NodeJs"]
+      },
+      {
+        "id": 9,
+        "Title": "Eyecam Co.",
+        "CompanyType": [
+          { "Type1": "NEW!" },
+          { "Type2": "FEATURED" }
+        ],
+        "JobRole" : "Lead Engineer",
+        "JobDetails" : ["1d ago", "Full Time", "Remote"],
+        "TechStacks" : [ "Frontend", "CSS", "HTML","React" , "NodeJs"]
+      },
+      {
+        "id": 9,
+        "Title": "The Air Filter Company",
+        "CompanyType": [
+          { "Type1": "NEW!" },
+          { "Type2": "FEATURED" }
+        ],
+        "JobRole" : "Lead Engineer",
+        "JobDetails" : ["1d ago", "Full Time", "Remote"],
+        "TechStacks" : [ "Frontend", "CSS", "HTML", "JavaScript", "React"]
+      }
   ]
