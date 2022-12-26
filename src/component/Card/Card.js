@@ -34,7 +34,7 @@ const Card=(props)=>{
             </div>
 
             {/* last part of card(listed tech list) */}
-            <div style={{border:'1px solid blue',display:'flex',width:'400px',justifyContent:'flex-end',flexWrap:'wrap'}}>
+            <div style={{display:'flex',width:'400px',justifyContent:'flex-end',flexWrap:'wrap'}}>
                 {props.TechStacks.map((e) => <CardButton TechStacks={e} />)}
             </div>
         </div>
