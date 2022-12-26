@@ -3,3 +3,7 @@
   padding: 0px;
   box-sizing: border-box;
 }
+.App{
+  background-color: #F0FAFB;
+  height: 100vh;  
+}
