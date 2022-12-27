@@ -1,5 +1,5 @@
 .main_div_of_card{
-    width: 70%;
+    width: 75%;
     background-color: white;
     /* margin: auto; */
     display: flex;
@@ -52,7 +52,7 @@
     font-weight: 600;
     font-size: 14px;
     border-radius: 5px;
-    margin: 10px;
+    margin: 5px;
     /* border: 1px solid green; */
 }
 .tech_div_of_card>div:hover{
@@ -68,6 +68,7 @@
     align-content: space-between;
     justify-content: space-around;
     flex-wrap: wrap;
+    /* border: 1px solid red; */
 }
 .details_of_job_middle_div> div:first-child{
     color: #66a5a5;
@@ -86,6 +87,48 @@
   @media only screen and (max-width: 1000px){
     .main_div_of_card{
         width: 90%;
+    }
+    .avatar {
+        vertical-align: middle;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+      }
+      .details_of_job{
+        height: 15px;
+        width: 160px;
+        font-size: 12px;
+        color: gray;
+        flex-wrap: wrap;
+    }
+    .tech_div_of_card>div{
+        color: #66a5a5;
+        background-color: #EBF3F5;
+        padding: 4px;
+        font-weight: 500;
+        font-size: 12px;
+        border-radius: 5px;
+        margin: 7px;
+    }
+    .details_of_job_middle_div> div:first-child{
+        color: #66a5a5;
+        font-weight: 500;
+        font-size: 12px;
+    }
+    .details_of_job_middle_div> div:nth-child(2){
+        color: #28312E;
+        font-weight: 500;
+        font-size: 12px;
+    }
+    .details_of_job_middle_div{
+        margin-left: 20px;
+        height: 70px;
+        /* display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        border: 1px solid red; */
     }
   }
   @media only screen and (max-width: 790px){

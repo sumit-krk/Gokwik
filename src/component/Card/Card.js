@@ -2,7 +2,7 @@ import Com_logo_1 from '../../Gokiwik/Com_logo_1.jpg';
 import CardButton from '../CardButton/CardButton';
 import styles from './Card.module.css'
 const Card=(props)=>{
-    console.log(props)
+    // console.log(props)
     return <>
         <div className={styles.main_div_of_card}>
             {/* small horizontal line part of card */}
