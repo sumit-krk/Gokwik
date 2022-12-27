@@ -2,110 +2,85 @@
     {
       "id": 1,
       "Title": "Photosnap",
-      "CompanyType": [
-        { "Type1": "NEW!" },
-        { "Type2": "FEATURED" }
-      ],
       "JobRole" : "Senior Frontend Developer",
       "JobDetails" : ["1d ago", "Full Time", "USA only"],
-      "TechStacks" : [ "Frontend", "Senior", "HTML", "CSS", "JavaScript"]
+      "TechStacks" : [ "Frontend", "Senior", "HTML", "CSS", "JavaScript"],
+      "LogoLink":"https://previews.123rf.com/images/ahasoft2000/ahasoft20001604/ahasoft2000160400234/54818668-links-glyph-toolbar-icon-for-software-design-style-is-a-white-symbol-on-a-round-blue-circle-with-gra.jpg",
+      "Show" :"true"
     },
     {
       "id": 2,
       "Title": "Manage",
-      "CompanyType": [
-        { "Type1": "NEW!" },
-        { "Type2": "FEATURED" }
-      ],
       "JobRole" : "Fullstack Developer",
       "JobDetails" : ["1w ago", "Full Time", "UK only"],
-      "TechStacks" : [ "Fullstack", "Midweight", "Python", "React"]
+      "TechStacks" : [ "Fullstack", "Midweight", "Python", "React"],
+      "LogoLink": "https://news.cgtn.com/news/2020-11-02/Analysis-China-is-betting-on-science-and-tech-like-never-before-V68V871ula/img/871ca9ce8b9941088260b6ed4ced4eeb/871ca9ce8b9941088260b6ed4ced4eeb.jpeg",
+      "Show" :"true"
     },
     {
       "id": 3,
       "Title": "Account",
-      "CompanyType": [
-        { "Type1": "" },
-        { "Type2": "FEATURED" }
-      ],
       "JobRole" : "Junior Frontend Developer",
       "JobDetails" : ["3d ago", "Part Time", "India only"],
-      "TechStacks" : [ "Frontend", "Junior" , "React", "Sass", "JavaScript"]
+      "TechStacks" : [ "Frontend", "Junior" , "React", "Sass", "JavaScript"],
+      "LogoLink": "https://media.licdn.com/dms/image/C4E22AQEx1Cn2VmdhCw/feedshare-shrink_800/0/1664217146275?e=2147483647&v=beta&t=m-1zbd0d9g2-nes_W2ztNSfP5UOX5ilaZYBJfJAGeJE"
     },
     {
       "id": 4,
       "Title": "MyHome",
-      "CompanyType": [
-        { "Type1": "NEW!" },
-        { "Type2": "FEATURED" }
-      ],
       "JobRole" : "Junior Frontend Developer",
       "JobDetails" : ["2d ago", "Full Time", "Remote"],
-      "TechStacks" : [ "Frontend", "Junior", "Css", "JavaScript"]
+      "TechStacks" : [ "Frontend", "Junior", "CSS", "JavaScript"],
+      "LogoLink": "https://img.freepik.com/premium-vector/abstract-classic-blue-background_23-2148417583.jpg?w=2000"
+
     },
     {
       "id": 5,
       "Title": "Software Engineer",
-      "CompanyType": [
-        { "Type1": "NEW!" }
-      ],
       "JobRole" : "Senior Software Engineer",
       "JobDetails" : ["4d ago", "Full Time", "UK only"],
-      "TechStacks" : [ "Fullstack","Midweight", "JavaScript", "Sass","Ruby"]
+      "TechStacks" : [ "Fullstack","Midweight", "JavaScript", "Sass","Ruby"],
+      "LogoLink": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/201810/stockvault-person-studying-and-learning---knowledge-concept178241_0.jpeg?size=690:388"
     },
     {
       "id": 6,
       "Title": "Facelt",
-      "CompanyType": [
-        { "Type1": "NEW!" },
-        { "Type2": "FEATURED" }
-      ],
       "JobRole" : "Junior Backend Developer",
       "JobDetails" : ["1d ago", "Full Time", "Remote"],
-      "TechStacks" : [ "Backend", "Junior", "HTML", "Sass", "JavaScript"]
+      "TechStacks" : [ "Backend","Junior","HTML","Sass","JavaScript"],
+      "LogoLink": "https://leverageedublog.s3.ap-south-1.amazonaws.com/blog/wp-content/uploads/2019/12/23174648/B-Tech-Degree.jpg"
     },
     {
         "id": 7,
         "Title": "Shortly",
-        "CompanyType": [
-          { "Type1": "NEW!" },
-          { "Type2": "FEATURED" }
-        ],
-        "JobRole" : "Lead Engineer",
-        "JobDetails" : ["1d ago", "Full Time", "Remote"],
-        "TechStacks" : [ "Frontend", "CSS", "HTML", "React" , "NodeJs"]
+        "JobRole" : "Junior Developer",
+        "JobDetails" : ["2w ago", "Full Time", "UK only"],
+        "TechStacks" : [ "Backend","Junior","Ruby","RoR"],
+        "LogoLink": "https://www.siliconrepublic.com/wp-content/uploads/2020/12/AdobeStock_389071495-718x523.jpeg"
       },
       {
         "id": 8,
         "Title": "Insure",
-        "CompanyType": [
-          { "Type1": "NEW!" },
-          { "Type2": "FEATURED" }
-        ],
-        "JobRole" : "Lead Engineer",
-        "JobDetails" : ["1d ago", "Full Time", "Remote"],
-        "TechStacks" : [ "Frontend", "CSS", "HTML","React" , "NodeJs"]
+        "JobRole" : "Junior Frontend Developer",
+        "JobDetails" : ["2w ago", "Full Time", "USA only"],
+        "TechStacks" : ["Frontend","Junior","Vue","JavaScript","Sass"],
+        "LogoLink": "https://assets.thehansindia.com/h-upload/2021/07/31/1092805-tech.webp"
+
       },
       {
         "id": 9,
         "Title": "Eyecam Co.",
-        "CompanyType": [
-          { "Type1": "NEW!" },
-          { "Type2": "FEATURED" }
-        ],
-        "JobRole" : "Lead Engineer",
-        "JobDetails" : ["1d ago", "Full Time", "Remote"],
-        "TechStacks" : [ "Frontend", "CSS", "HTML","React" , "NodeJs"]
+        "JobRole" : "Full Stack Engineer",
+        "JobDetails" : ["3w ago", "Full Time", "Worldwide"],
+        "TechStacks" : [ "Fullstack", "Midweight", "JavaScript","Djanjo" , "Python"],
+        "LogoLink": "https://mixpanel.com/wp-content/uploads/2021/05/Data-Stack-Hero-Census-Blog.png"
       },
       {
         "id": 10,
         "Title": "The Air Filter Company",
-        "CompanyType": [
-          { "Type1": "NEW!" },
-          { "Type2": "FEATURED" }
-        ],
-        "JobRole" : "Lead Engineer",
-        "JobDetails" : ["1d ago", "Full Time", "Remote"],
-        "TechStacks" : [ "Frontend", "CSS", "HTML", "JavaScript", "React"]
+        "JobRole" : "Front-end Dev",
+        "JobDetails" : ["1mo ago", "Part Time", "Worldwide"],
+        "TechStacks" : [ "Frontend", "Junior", "React", "Sass", "JavaScript"],
+        "LogoLink": "https://www.hcltech.com/sites/default/files/images/campaign-images/rich-snippet/Home-Twitter.png"
       }
   ]

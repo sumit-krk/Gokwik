@@ -12,15 +12,18 @@ const JobRoleCard=()=>{
         { value: "HTML", label: "HTML" },
         { value: "CSS", label: "CSS" },
         { value: "JavaScript", label: "JavaScript" },
-        { value: "JAVA", label: "JAVA" },
+        { value: "Ruby", label: "Ruby" },
         { value: "Senior", label: "Senior" },
         { value: "Midweight", label: "Midweight" },
         { value: "Python", label: "Python" },
         { value: "Sass", label: "Sass" },
-        { value: "SQL", label: "SQL" },
-        { value: "Express", label: "Express" },
-        { value: "MongoDB", label: "MongoDB" },
-        { value: "ReactJs", label: "ReactJs" }
+        { value: "Ruby", label: "Ruby" },
+        { value: "Backend", label: "Backend" },
+        { value: "Junior", label: "Junior" },
+        { value: "ReactJs", label: "ReactJs" },
+        { value: "RoR", label: "RoR" },
+        { value: "Vue", label: "Vue" },
+        { value: "Djanjo", label: "Djanjo" }
       ];
 
       const [searchData,setSearchData]=useState([]);
@@ -67,10 +70,8 @@ const JobRoleCard=()=>{
 
     return (
       <>
-        <div className={styles.main_body}>
-          <div style={{width:'75%',margin:'auto'}}>
+      <div style={{width:'76%',margin:'auto', position:'absolute' ,right:'12%',top:"12%"}}>
             <Select
-              closeMenuOnSelect={false}
               components={animatedComponents}
             //   defaultValue={[colourOptions[4], colourOptions[5]]}
               isMulti
@@ -78,8 +79,9 @@ const JobRoleCard=()=>{
               onChange={HandleSelect}
             />
           </div>
+        <div className={styles.main_body}>
           {data.map((Data) => (
-            <Card Title={Data.Title} TechStacks={Data.TechStacks} JobRole={Data.JobRole} />
+            <Card Title={Data.Title} TechStacks={Data.TechStacks} JobRole={Data.JobRole} LogoLink={Data.LogoLink} JobDetails={Data.JobDetails} Show={Data.Show} />
           ))}
         </div>
       </>

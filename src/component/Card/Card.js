@@ -1,4 +1,3 @@
-import Com_logo_1 from '../../Gokiwik/Com_logo_1.jpg';
 import CardButton from '../CardButton/CardButton';
 import styles from './Card.module.css'
 const Card=(props)=>{
@@ -15,19 +14,23 @@ const Card=(props)=>{
 
                 {/* company icon */}
                 <div className={styles.avatar_div}>
-                    <img src={Com_logo_1} alt="BigCo Inc. logo" className={styles.avatar}/>
+                    <img src={props.LogoLink} alt="BigCo Inc. logo" className={styles.avatar}/>
                 </div>
 
                 {/* company tech part */}
                 <div className={styles.details_of_job_middle_div}>
-                    <div>{props.Title}</div>
+                    <div style={{display:'flex'}}>
+                        <div>{props.Title}</div>
+                        {props.Show=='true'?<div style={{marginLeft:'6px', color:'white',backgroundColor:'teal',padding:'1px 8px',borderRadius:'10px', fontWeight:'normal'}}>New!</div>:''}
+                        {props.Show=='true'?<div style={{marginLeft:'6px', color:'white',backgroundColor:'black',padding:'1px 8px',borderRadius:'10px', fontWeight:'normal'}}>Fetured</div>:''}
+                    </div>
                     <div>{props.JobRole}</div>
                     <div className={styles.details_of_job}>
-                        <span>1d ago</span>
+                        <span>{props.JobDetails[0]}</span>
                         <span className={styles.dot_in_card}></span>
-                        <span>Full Time</span>
+                        <span>{props.JobDetails[1]}</span>
                         <span className={styles.dot_in_card}></span>
-                        <span>USA only</span>
+                        <span>{props.JobDetails[2]}</span>
                     </div>
                 </div>
 
