@@ -78,6 +78,12 @@
     color: #28312E;
     font-weight: bold;
 }
+.tech_section{
+    display: flex;
+    width: 400px;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
 .avatar {
     vertical-align: middle;
     width: 80px;
@@ -123,12 +129,6 @@
     .details_of_job_middle_div{
         margin-left: 20px;
         height: 70px;
-        /* display: flex;
-        flex-direction: column;
-        align-content: space-between;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        border: 1px solid red; */
     }
   }
   @media only screen and (max-width: 790px){
@@ -137,8 +137,8 @@
     }
     .avatar {
         vertical-align: middle;
-        width: 60px;
-        height: 60px;
+        width: 55px;
+        height: 55px;
         border-radius: 50%;
       }
       .details_of_job{
@@ -157,6 +157,41 @@
         border-radius: 5px;
         margin: 7px;
     }
+        .tech_section {
+            width: 250px;
+        }
+    
+        .middle_div_of_card {
+            display: flex;
+            align-items: center;
+            /* width: 60%; */
+            flex-grow: 2;
+            flex-wrap: wrap;
+        }
+    
+        .details_of_job_middle_div {
+            margin-left: 12px;
+            height: 60px;
+        }
+        .tech_div_of_card>div{
+            color: #66a5a5;
+            background-color: #EBF3F5;
+            padding: 4px;
+            font-weight: 500;
+            font-size: 10px;
+            border-radius: 5px;
+            margin: 3px;
+        }
+        .details_of_job_middle_div> div:first-child{
+            color: #66a5a5;
+            font-weight: 500;
+            font-size: 12px;
+        }
+        .details_of_job_middle_div> div:nth-child(2){
+            color: #28312E;
+            font-weight: 500;
+            font-size: 12px;
+        }
   }
   @media only screen and (max-width: 600px){
     .main_div_of_card{
@@ -197,38 +232,80 @@
   }
   @media only screen and (max-width: 480px){
     .main_div_of_card{
-        width: 80%;
+        width: 85%;
+        position: relative;
+        height: 250px;
     }
     .avatar {
         vertical-align: middle;
-        width: 50px;
-        height: 50px;
+        width: 60px;
+        height: 60px;
         border-radius: 50%;
       }
+      .avatar_div{
+        position: absolute;
+        top: -20px;
+      }
       .details_of_job{
-        height: 15px;
-        width: 140px;
-        font-size: 10px;
+        height: 18px;
+        width: 200px;
+        font-size: 14px;
         color: gray;
         flex-wrap: wrap;
+    }
+    .details_of_job_middle_div {
+        margin-left: 5px;
+        height: 70px;
+        position: absolute;
+        top: 40px;
     }
     .tech_div_of_card>div{
         color: #66a5a5;
         background-color: #EBF3F5;
-        padding: 4px;
+        padding: 7px;
         font-weight: 500;
-        font-size: 10px;
+        font-size: 16px;
         border-radius: 5px;
-        margin: 3px;
+        margin: 5px;
     }
     .details_of_job_middle_div> div:first-child{
         color: #66a5a5;
-        font-weight: 500;
-        font-size: 12px;
+        font-weight: 700;
+        font-size: 16px;
     }
     .details_of_job_middle_div> div:nth-child(2){
         color: #28312E;
-        font-weight: 500;
-        font-size: 12px;
+        font-weight: 700;
+        font-size: 14px;
+    }
+    .tech_section {
+        width: 250px;
+        position: absolute;
+        top: 113px;
+        justify-content: flex-start;
+        left: 20px;
+        border-top: 2px solid gray;
+        width: 90%;
+        margin-top: 15px;
+    }
+    .tech_div_of_card>div{
+        color: #66a5a5;
+        background-color: #EBF3F5;
+        padding: 6px;
+        font-weight: 600;
+        font-size: 16px;
+        border-radius: 5px;
+        margin: 6px;
+        border: 1px solid green;
+        margin-top: 15px;
+    }
+    .horizontal_line{
+        height: 2px;
+        width: 100%;
+        background-color: gray;
+    }
+    .small_horizontal_div{
+        height: 200px;
+        width: 5px;
     }
   }

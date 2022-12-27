@@ -14,7 +14,7 @@ const Card=(props)=>{
             <div className={styles.middle_div_of_card}>
 
                 {/* company icon */}
-                <div>
+                <div className={styles.avatar_div}>
                     <img src={Com_logo_1} alt="BigCo Inc. logo" className={styles.avatar}/>
                 </div>
 
@@ -32,9 +32,9 @@ const Card=(props)=>{
                 </div>
 
             </div>
-
             {/* last part of card(listed tech list) */}
-            <div style={{display:'flex',width:'400px',justifyContent:'flex-end',flexWrap:'wrap'}}>
+            <div className={styles.tech_section}>
+                {/* <div className={styles.horizontal_line} /> */}
                 {props.TechStacks.map((e) => <CardButton TechStacks={e} />)}
             </div>
         </div>
