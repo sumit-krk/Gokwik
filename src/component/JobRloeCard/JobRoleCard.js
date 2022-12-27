@@ -26,7 +26,6 @@ const JobRoleCard=()=>{
         { value: "Djanjo", label: "Djanjo" }
       ];
 
-      const [searchData,setSearchData]=useState([]);
       const [data,setData]=useState([...Data]);
 
       const demo=(data)=>{
@@ -63,7 +62,6 @@ const JobRoleCard=()=>{
                 handleSearch(e)
             }
             else{
-                setSearchData([]); 
                 setData(Data);
             }
       }
