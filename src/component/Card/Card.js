@@ -21,7 +21,7 @@ const Card=(props)=>{
                 {/* company tech part */}
                 <div className={styles.details_of_job_middle_div}>
                     <div>{props.Title}</div>
-                    <div>Full stack Developer</div>
+                    <div>{props.JobRole}</div>
                     <div className={styles.details_of_job}>
                         <span>1d ago</span>
                         <span className={styles.dot_in_card}></span>

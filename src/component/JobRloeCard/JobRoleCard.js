@@ -13,10 +13,10 @@ const JobRoleCard=()=>{
         { value: "CSS", label: "CSS" },
         { value: "JavaScript", label: "JavaScript" },
         { value: "JAVA", label: "JAVA" },
-        { value: "Jest", label: "Jest" },
-        { value: "Mocha", label: "Mocha" },
-        { value: "Blackbox", label: "Blackbox" },
-        { value: "NodeJs", label: "NodeJs" },
+        { value: "Senior", label: "Senior" },
+        { value: "Midweight", label: "Midweight" },
+        { value: "Python", label: "Python" },
+        { value: "Sass", label: "Sass" },
         { value: "SQL", label: "SQL" },
         { value: "Express", label: "Express" },
         { value: "MongoDB", label: "MongoDB" },
@@ -68,7 +68,7 @@ const JobRoleCard=()=>{
     return (
       <>
         <div className={styles.main_body}>
-          <div style={{width:'70%',margin:'auto'}}>
+          <div style={{width:'75%',margin:'auto'}}>
             <Select
               closeMenuOnSelect={false}
               components={animatedComponents}
@@ -79,7 +79,7 @@ const JobRoleCard=()=>{
             />
           </div>
           {data.map((Data) => (
-            <Card Title={Data.Title} TechStacks={Data.TechStacks} />
+            <Card Title={Data.Title} TechStacks={Data.TechStacks} JobRole={Data.JobRole} />
           ))}
         </div>
       </>

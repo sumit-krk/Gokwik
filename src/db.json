@@ -6,9 +6,9 @@
         { "Type1": "NEW!" },
         { "Type2": "FEATURED" }
       ],
-      "JobRole" : "Software Development Engineer",
+      "JobRole" : "Senior Frontend Developer",
       "JobDetails" : ["1d ago", "Full Time", "USA only"],
-      "TechStacks" : [ "Frontend", "CSS", "HTML", "JavaScript"]
+      "TechStacks" : [ "Frontend", "Senior", "HTML", "CSS", "JavaScript"]
     },
     {
       "id": 2,
@@ -17,9 +17,9 @@
         { "Type1": "NEW!" },
         { "Type2": "FEATURED" }
       ],
-      "JobRole" : "Software Engineer",
+      "JobRole" : "Fullstack Developer",
       "JobDetails" : ["1w ago", "Full Time", "UK only"],
-      "TechStacks" : [ "Frontend", "CSS", "HTML", "JavaScript", "JAVA"]
+      "TechStacks" : [ "Fullstack", "Midweight", "Python", "React"]
     },
     {
       "id": 3,
@@ -28,9 +28,9 @@
         { "Type1": "" },
         { "Type2": "FEATURED" }
       ],
-      "JobRole" : "QA Engineer",
+      "JobRole" : "Junior Frontend Developer",
       "JobDetails" : ["3d ago", "Part Time", "India only"],
-      "TechStacks" : [ "Jest", "Mocha" , "BlackBox"]
+      "TechStacks" : [ "Frontend", "Junior" , "React", "Sass", "JavaScript"]
     },
     {
       "id": 4,
@@ -39,19 +39,19 @@
         { "Type1": "NEW!" },
         { "Type2": "FEATURED" }
       ],
-      "JobRole" : "Back-End Engineer",
+      "JobRole" : "Junior Frontend Developer",
       "JobDetails" : ["2d ago", "Full Time", "Remote"],
-      "TechStacks" : [ "JAVA", "NodeJs" , "ExpressJs", "MongoDB" , "SQL"]
+      "TechStacks" : [ "Frontend", "Junior", "Css", "JavaScript"]
     },
     {
       "id": 5,
-      "Title": "Loop Studios",
+      "Title": "Software Engineer",
       "CompanyType": [
         { "Type1": "NEW!" }
       ],
       "JobRole" : "Senior Software Engineer",
       "JobDetails" : ["4d ago", "Full Time", "UK only"],
-      "TechStacks" : [ "NodeJs","MongoDB", "SQL", "ReactJs"]
+      "TechStacks" : [ "Fullstack","Midweight", "JavaScript", "Sass","Ruby"]
     },
     {
       "id": 6,
@@ -60,9 +60,9 @@
         { "Type1": "NEW!" },
         { "Type2": "FEATURED" }
       ],
-      "JobRole" : "Lead Engineer",
+      "JobRole" : "Junior Backend Developer",
       "JobDetails" : ["1d ago", "Full Time", "Remote"],
-      "TechStacks" : [ "Frontend", "CSS", "HTML", "JavaScript", "NodeJs"]
+      "TechStacks" : [ "Backend", "Junior", "HTML", "Sass", "JavaScript"]
     },
     {
         "id": 7,
