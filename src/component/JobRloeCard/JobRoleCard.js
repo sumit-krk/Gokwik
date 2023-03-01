@@ -25,21 +25,17 @@ const JobRoleCard=()=>{
         { value: "Vue", label: "Vue" },
         { value: "Djanjo", label: "Djanjo" }
       ];
-
       const [data,setData]=useState([...Data]);
-
       const demo=(data)=>{
         let obj_array=[];
         for(let i=0;i<data.length;i++){
-            obj_array.push(data[i].value);   
+            obj_array.push(data[i].value);  
         }
         return obj_array;
       }
-
       function getUniqueListBy(arr, key) {
         return [...new Map(arr.map(item => [item[key], item])).values()]
     }
-
       const handleSearch=(data)=>{
         let new_data=demo(data);
         console.log("new_data",new_data)
@@ -55,7 +51,6 @@ const JobRoleCard=()=>{
         console.log("arr_1",arr1)
         setData(arr1)
       }
-
       const HandleSelect=(e)=>{
             console.log("e",e)
             if(e.length>0){
@@ -65,10 +60,10 @@ const JobRoleCard=()=>{
                 setData(Data);
             }
       }
-
     return (
       <>
-      <div style={{width:'76%',margin:'auto', position:'absolute' ,right:'12%',top:"12%"}}>
+      <div style={{width:'76%',margin:'auto', position:'relative'}}>
+            <div style={{width:'76%',margin:'auto', position:'absolute' ,right:'12%',top:"12%"}}>
             <Select
               components={animatedComponents}
             //   defaultValue={[colourOptions[4], colourOptions[5]]}
@@ -76,6 +71,7 @@ const JobRoleCard=()=>{
               options={options}
               onChange={HandleSelect}
             />
+            </div>
           </div>
         <div className={styles.main_body}>
           {data.map((Data) => (
