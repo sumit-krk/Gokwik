@@ -62,8 +62,8 @@ const JobRoleCard=()=>{
       }
     return (
       <>
-      <div style={{width:'76%',margin:'auto', position:'relative'}}>
-            <div style={{width:'76%',margin:'auto', position:'absolute' ,right:'12%',top:"12%"}}>
+      <div style={{width:'76%', position:'relative',margin:'auto'}}>
+            <div style={{width:'100%',position:'absolute',top:'-20px'}}>
             <Select
               components={animatedComponents}
             //   defaultValue={[colourOptions[4], colourOptions[5]]}
