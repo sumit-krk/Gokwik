@@ -66,7 +66,6 @@ const JobRoleCard=()=>{
             <div style={{width:'100%',position:'absolute',top:'-20px'}}>
             <Select
               components={animatedComponents}
-            //   defaultValue={[colourOptions[4], colourOptions[5]]}
               isMulti
               options={options}
               onChange={HandleSelect}
