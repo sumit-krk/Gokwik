@@ -38,7 +38,6 @@ const JobRoleCard=()=>{
     }
       const handleSearch=(data)=>{
         let new_data=demo(data);
-        console.log("new_data",new_data)
         let new_array=[];
         for(let i=0;i<Data.length;i++){
             for(let j=0;j<Data[i].TechStacks.length;j++){
@@ -48,7 +47,6 @@ const JobRoleCard=()=>{
             }
         }
         let arr1=getUniqueListBy(new_array,'id')
-        console.log("arr_1",arr1)
         setData(arr1)
       }
       const HandleSelect=(e)=>{
